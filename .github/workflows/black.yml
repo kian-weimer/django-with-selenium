@@ -11,7 +11,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: RojerGS/python-black-check@master
-        with:
-          line-length: '81'
-          path: '.'
-          exclude: '(/*.html|/*.mo|/*.po|/*.png|/*.rst)'
