@@ -20,7 +20,7 @@ class PlayerFormTest(LiveServerTestCase):
     #check result; page source looks at entire html document
     assert 'Iowa' in driver.page_source
 
-  def testform(self):
+  def testform2(self):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
