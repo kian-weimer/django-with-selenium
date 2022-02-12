@@ -2,9 +2,9 @@
 
 name: ESLint
 
-# defaults:
-#   run:
-#     working-directory: ./frontend
+defaults:
+  run:
+    working-directory: ./frontend
 
 # Controls when the workflow will run
 on:
@@ -31,7 +31,6 @@ jobs:
       # ESLint and Prettier must be in `package.json`
       - name: Install Node.js dependencies
         run: |
-          cd frontend
           npm ci
           npm install -g eslint
 
