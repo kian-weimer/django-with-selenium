@@ -18,7 +18,7 @@ View some use case examples here: https://docs.djangoproject.com/en/4.0/intro/tu
     $ python manage.py shell
 
 ## Run automated tests
-This will run all of the automated tests for a given app (i.e. polls)
+This will run all of the automated tests for a given app (i.e. polls).
 
     $ python manage.py test <app_name>
 
